@@ -1,4 +1,4 @@
-name: web deployment
+name: My Web Deployment
 
 on: [push]
 
