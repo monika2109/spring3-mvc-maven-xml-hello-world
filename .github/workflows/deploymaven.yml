@@ -23,4 +23,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Deploy to ec2 instance
-      run: curl -v -u admin:adminadmin -T /home/runner/work/spring3-mvc-maven-xml-hello-world/spring3-mvc-maven-xml-hello-world/target/spring3-mvc-maven-xml-hello-world-3.0-SNAPSHOT.war 'http://ec2-100-25-162-121.compute-1.amazonaws.com:8080/manager/text/deploy?path=/myweb_dev_action'
+      run: curl -v -u admin:adminadmin -T /home/runner/work/spring3-mvc-maven-xml-hello-world/spring3-mvc-maven-xml-hello-world/target/spring3-mvc-maven-xml-hello-world-3.0-SNAPSHOT.war 'http://ec2-54-88-225-247.compute-1.amazonaws.com:8080/manager/text/deploy?path=/myweb_dev_action'
